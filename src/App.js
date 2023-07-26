@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [serviceList, setServiceList] = useState([{ service: "" }]);
-  const [outputList , setOutputList] = useState()
+
 
   const handleServiceChange = (e, index) => {
     const { name, value } = e.target;
