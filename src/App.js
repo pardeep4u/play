@@ -70,11 +70,7 @@ function App() {
           </div>
         ))}
       </div>
-      <div className="output">
-        <h2>Output</h2>
-        <button onClick={handleOutput}>Click here to show result.</button>
-        { outputList.length !== 1 && }
-      </div>
+     
     </form>
   );
 }
