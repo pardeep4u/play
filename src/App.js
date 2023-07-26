@@ -23,7 +23,7 @@ function App() {
   };
 
   const handleOutput = (e) => {
-    console.log("this is just a new service.");
+    console.log("this is just a new way of doing things.");
     e.preventDefault();
     console.log(serviceList);
   };
