@@ -1,9 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-// Updated on github
+// Updated on github new line added.
 function App() {
   const [serviceList, setServiceList] = useState([{ service: "" }]);
-
 
   const handleServiceChange = (e, index) => {
     const { name, value } = e.target;
@@ -25,10 +24,6 @@ function App() {
   const handleOutput = (e) => {
     e.preventDefault();
     console.log(serviceList);
-
-
-
-
   };
 
   return (
@@ -70,7 +65,6 @@ function App() {
           </div>
         ))}
       </div>
-     
     </form>
   );
 }
